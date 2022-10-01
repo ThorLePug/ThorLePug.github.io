@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* General rules */
+
+li{list-style: none;}
+
+
+/* Website Head */
+
+.website-head {
+    background-color: rgb(0, 4, 47);
+    color: white;
+    height: 80vh;
+}
+
+.main-title {
+    padding: 40px 10vw;
+    text-align: center;
+}
+
+.navbar * {
+    display: inline-block;
+    margin: 10px 1em;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
